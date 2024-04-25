@@ -123,10 +123,79 @@
 // let dias = diasVida % 30;
 // console.log(`Idade: ${anos} anos, ${meses} meses e ${dias} dias.`);
 
-//------------------------------------
 
 
 // 10) Crie um programa que leia o tempo de duração de uma
 // atividade em horas, minutos e segundos e mostre-o expresso
 // em segundos.
 
+// let Math.floor(10);
+// let Math.floor(50);
+// let Math.floor(30);
+
+// let segundosCaculada = (horas*3600) + (50*60) + segundos
+
+// console.log(`Os segundo gasto na atividade são ${segundosCaculada}`)
+
+//------------------------------------
+
+// 11) Crie um programa que leia o tempo de duração de uma
+// atividade em segundos e mostre-o expresso em horas,
+// minutos e segundos. 
+
+// let tempoEmSegundos =60000;
+// let horas = Math.floor(tempoEmSegundos / 3600);
+// let minutos = Math.floor((tempoEmSegundos % 3600) / 60);
+// let segundos = tempoEmSegundos % 60;
+
+// console.log(`Tempo de duração: ${horas} horas, ${minutos} minutos e ${segundos} segundos.`);0
+
+//------------------------------------
+
+// 12 Crie um programa que leia o preço de um produto, calcule e
+// mostre o seu preço promocional, com 15% de desconto.
+
+//let produto= parseFloat(prompt('Digite o valor do produto'))
+
+// let prodPromo= (produto/100) *85 ;
+// let total= prodPromo.toFixed(2);
+
+// console.log(`O valor do produto com 15% de desconto sai a R$ ${total}`)
+
+//------------------------------------
+
+// 13) Crie um programa que leia o salário de um funcionário,
+// calcule e mostre o seu novo salário, com 27,50% de aumento.
+
+// let salario= parseFloat(prompt('Digite seu salário '))
+
+// let salarioTotal= salario *1.275 ;
+// let total= salarioTotal.toFixed(2);
+
+// console.log(`O salario teve um aumento de 27,5% Agora e ${total}`)
+
+//------------------------------------
+
+// 14) Crie um programa que leia o valor da matrícula de um curso,
+// calcule e mostre o seu novo valor, com 20% de desconto.
+
+// let matricula= parseFloat(prompt('Digite o valor da matrícula'))
+
+// let valorDesconto= (matricula/100) *80 ;
+// let total= valorDesconto.toFixed(2);
+
+// console.log(`O valor da matrícula com 20% de desconto sai a R$ ${total}`)
+
+//------------------------------------
+
+// 15) Crie um programa que leia o valor de um boleto que será
+// pago com atraso, a quantidade de dias em atraso, calcule e
+// mostre o seu novo valor com uma taxa de 1,25% ao dia.
+
+let valorBoleto= parseFloat(prompt("Digite o valor do boleto"))
+
+let diasVencidos= parseFloat(prompt("Digite os dias vencidos")) 
+
+let total =((valorBoleto*0.0125) * diasVencidos) ;
+    let totalSoma =total+valorBoleto
+    console.log(`O valor atualizado e  R$ ${totalSoma}`)
