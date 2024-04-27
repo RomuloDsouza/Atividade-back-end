@@ -192,10 +192,10 @@
 // pago com atraso, a quantidade de dias em atraso, calcule e
 // mostre o seu novo valor com uma taxa de 1,25% ao dia.
 
-let valorBoleto= parseFloat(prompt("Digite o valor do boleto"))
+// let valorBoleto= parseFloat(prompt("Digite o valor do boleto"))
 
-let diasVencidos= parseFloat(prompt("Digite os dias vencidos")) 
+// let diasVencidos= parseFloat(prompt("Digite os dias vencidos")) 
 
-let total =((valorBoleto*0.0125) * diasVencidos) ;
-    let totalSoma =total+valorBoleto
-    console.log(`O valor atualizado e  R$ ${totalSoma}`)
+// let total =((valorBoleto*0.0125) * diasVencidos) ;
+//     let totalSoma =total+valorBoleto
+//     console.log(`O valor atualizado e  R$ ${totalSoma}`)
